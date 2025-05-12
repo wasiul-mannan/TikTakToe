@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                     cells[i].setText("X");
                     if (checkWin()) {
                         move = i;
-                        cells[i].setText(""); 
+                        cells[i].setText("");
                         break;
                     } else {
                         cells[i].setText("");
